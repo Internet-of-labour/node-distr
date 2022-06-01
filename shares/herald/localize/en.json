@@ -1,7 +1,7 @@
 [
   {"ifi": 1, "text": "Message", "bigText": false},
   {"ifi": 2, "text": "Box", "bigText": false},
-  {"ifi": 3, "text": "New offer", "bigText": false},
+  {"ifi": 3, "text": "New offer-", "bigText": false},
   {"ifi": 4, "text": "You are hired", "bigText": false},
   {"ifi": 5, "text": "Important system message...", "bigText": false},
   {"ifi": 6, "text": "You've got a performer", "bigText": false},
