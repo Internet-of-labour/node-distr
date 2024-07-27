@@ -7,7 +7,10 @@
     "ifi": 2,
     "text": "กล่อง"
   },
-  {"ifi": 3, "text": "Service offer"},
+  {
+    "ifi": 3,
+    "text": "ข้อเสนอบริการ"
+  },
   {
     "ifi": 4,
     "text": "คุณได้รับการว่าจ้าง"
@@ -38,7 +41,7 @@
   },
   {
     "ifi": 11,
-    "text": "Contract state changes"
+    "text": "การเปลี่ยนแปลงสถานะสัญญา"
   },
   {
     "ifi": 12,
@@ -88,15 +91,48 @@
     "ifi": 23,
     "text": "การชำระเงินของคุณด้วยรหัสการโอน {{transId}} ได้รับการยืนยันแล้ว"
   },
-  {"ifi": 24, "text": "Job offer"},
-  {"ifi": 25, "text": "Contract is cancelled"},
-  {"ifi": 26, "text": "Job has begun"},
-  {"ifi": 27, "text": "Job is paused"},
-  {"ifi": 28, "text": "Job continues"},
-  {"ifi": 29, "text": "Job is completed"},
-  {"ifi": 30, "text": "30 minutes before job starts!"},
-  {"ifi": 31, "text": "Location track request"},
-  {"ifi": 32, "text": "Allowed"},
-  {"ifi": 33, "text": "Declined"},
-  {"ifi": 34, "text": "To observer"}
+  {
+    "ifi": 24,
+    "text": "เสนองาน"
+  },
+  {
+    "ifi": 25,
+    "text": "สัญญาถูกยกเลิก"
+  },
+  {
+    "ifi": 26,
+    "text": "งานได้เริ่มขึ้นแล้ว"
+  },
+  {
+    "ifi": 27,
+    "text": "งานถูกหยุดชั่วคราว"
+  },
+  {
+    "ifi": 28,
+    "text": "งานยังคงดำเนินต่อไป"
+  },
+  {
+    "ifi": 29,
+    "text": "งานเสร็จเรียบร้อยแล้ว"
+  },
+  {
+    "ifi": 30,
+    "text": "30 นาที ก่อนเริ่มงาน!"
+  },
+  {
+    "ifi": 31,
+    "text": "คำขอติดตามตำแหน่ง"
+  },
+  {
+    "ifi": 32,
+    "text": "อนุญาต"
+  },
+  {
+    "ifi": 33,
+    "text": "ปฏิเสธ"
+  },
+  {
+    "ifi": 34,
+    "text": "สู่ผู้สังเกตการณ์"
+  }
 ]
