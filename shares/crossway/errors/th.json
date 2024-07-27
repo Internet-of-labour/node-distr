@@ -133,7 +133,10 @@
     "err": 40,
     "msg": "ค่าฟิลด์ไม่ตรงตามเงื่อนไขขั้นต่ำหรือสูงสุด"
   },
-  {"err": 41, "msg": "Location setting is not allowed for the app. Maybe Location/GPS is switched OFF on your device or you didn't give NiXeL permission to use location data"},
+  {
+    "err": 41,
+    "msg": "ไม่อนุญาตให้ตั้งค่าตำแหน่งสำหรับแอป อาจเป็นไปได้ว่าตำแหน่ง/GPS ถูกปิดบนอุปกรณ์ของคุณ หรือคุณไม่ได้ให้สิทธิ์แก่ NiXeL ในการใช้ข้อมูลตำแหน่ง"
+  },
   {
     "err": 42,
     "msg": "การประมวลผลภาพล้มเหลว"
@@ -148,11 +151,11 @@
   },
   {
     "err": 45,
-    "msg": "Order token hasn't been found"
+    "msg": "ไม่พบโทเค็นการสั่งซื้อ"
   },
   {
     "err": 46,
-    "msg": "Call setOrderLoc before observeMatchedOrders"
+    "msg": "เรียก setOrderLoc ก่อน observeMatchedOrders"
   },
   {
     "err": 47,
@@ -290,7 +293,10 @@
     "err": 80,
     "msg": "ตรวจสอบสถานะของเอกสาร"
   },
-  {"err": 81, "msg": "The document has been expired"},
+  {
+    "err": 81,
+    "msg": "เอกสารได้หมดอายุแล้ว"
+  },
   {
     "err": 300,
     "msg": "ปัญหาเครือข่าย ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต",
@@ -350,7 +356,10 @@
     "err": 502,
     "msg": "ส่งล้มเหลว"
   },
-  {"err": 503, "msg": "{{appName}} iol app is required in the device for this feature but it is not installed. Please, install it and try again"},
+  {
+    "err": 503,
+    "msg": "{{appName}} จำเป็นต้องมีแอป iol ในอุปกรณ์เพื่อใช้ฟีเจอร์นี้ แต่ไม่ได้ติดตั้งไว้ โปรดติดตั้งแล้วลองอีกครั้ง"
+  },
   {
     "err": 516,
     "msg": "ไม่มีหัวข้อนี้"
@@ -371,7 +380,10 @@
     "err": 520,
     "msg": "Session ส่งคืนปัญหา"
   },
-  {"err": 521, "msg": "iolService has not been launched on this device or it doesn't response"},
+  {
+    "err": 521,
+    "msg": "ยังไม่ได้เปิดตัว iolService บนอุปกรณ์นี้หรือไม่ตอบสนอง"
+  },
   {
     "err": 600,
     "msg": "ข้อผิดพลาดในการเข้ารหัส/ถอดรหัสบน",
