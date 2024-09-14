@@ -282,6 +282,7 @@
   {"err": 79, "msg": "Promo code not found"},
   {"err": 80, "msg": "Check state of the document"},
   {"err": 81, "msg": "Belgenin süresi doldu"},
+  {"err": 82, "msg": "Şifre sıfırlama soruları ayarlanmadı"},
   {
     "err": 300,
     "msg": "Ağ sorunları. İnternet bağlantısını kontrol edin",
