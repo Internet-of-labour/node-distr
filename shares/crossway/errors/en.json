@@ -91,7 +91,7 @@
   {"err": 503, "msg": "{{appName}} iol app is required in the device for this feature but it is not installed. Please, install it and try again"},
   {"err": 516, "msg": "The topic isn't exist"},
   {"err": 517, "msg": "Horse is stopped"},
-  {"err": 518, "msg": "Horse is lost"},
+  {"err": 518, "msg": "Connection to iol is lost. Reconnecting..."},
   {"err": 519, "msg": "Session is lost"},
   {"err": 520, "msg": "Session returned an issue"},
   {"err": 521, "msg": "iolService has not been launched on this device or it doesn't response"},
