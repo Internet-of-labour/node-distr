@@ -74,6 +74,7 @@
   {"err": 80, "msg": "Check state of the document"},
   {"err": 81, "msg": "The document has been expired"},
   {"err": 82, "msg": "Password reset questions have not been set"},
+  {"err": 83, "msg": "You should set first name and last name in your profile"},
   {"err": 300, "msg": "Network issues. Check internet connection", "note": "300-399 connection errors"},
   {"err": 301, "msg": "LAC: no response"},
   {"err": 302, "msg": "Response timeout. Please, try a few minutes later again"},
