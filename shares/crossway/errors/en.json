@@ -86,6 +86,7 @@
   {"err": 404, "msg": "Data have not been saved"},
   {"err": 405, "msg": "Command has been failed"},
   {"err": 406, "msg": "Given valueBase is incorrect "},
+  {"err": 407, "msg": "Access to media storage"},
   {"err": 500, "msg": "iol-connector: 'Horse' is not gotten", "note": "500-599: iol-connector errors"},
   {"err": 501, "msg": "Topic subscription fail"},
   {"err": 502, "msg": "Sending fail"},

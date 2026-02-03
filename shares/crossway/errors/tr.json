@@ -330,6 +330,7 @@
     "err": 406,
     "msg": "Verilen ValueBase yanlış"
   },
+  {"err": 407, "msg": "Medya depolama alanına erişim"},
   {
     "err": 500,
     "msg": "iol-Connector: 'At' elde edilmez",
