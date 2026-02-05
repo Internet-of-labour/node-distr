@@ -80,6 +80,7 @@
   {"err": 301, "msg": "LAC: no response"},
   {"err": 302, "msg": "Response timeout. Please, try a few minutes later again"},
   {"err": 303, "msg": "Email issues"},
+  {"err": 304, "msg": "Unsuccessful authorization to a third-party service"},
   {"err": 400, "msg": "DB error: check the data", "note": "400-599 database errors"},
   {"err": 401, "msg": "DB connection error"},
   {"err": 402, "msg": "Local DB connection error"},

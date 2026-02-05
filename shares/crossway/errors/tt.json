@@ -302,6 +302,7 @@
     "err": 303,
     "msg": "E -posta Sorunları"
   },
+  {"err": 304, "msg": "Üçüncü taraf bir hizmete yetkilendirme başarısız oldu"},
   {
     "err": 400,
     "msg": "DB Hatası: Verileri kontrol edin",
