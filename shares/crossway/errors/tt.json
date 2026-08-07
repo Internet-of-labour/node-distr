@@ -1,473 +1,127 @@
 [
-  {
-    "err": -1,
-    "msg": ""
-  },
-  {
-    "err": 0,
-    "msg": "iol'de kayıtlı olmayan hata numarası veya hata listesi henüz indirilmedi"
-  },
-  {
-    "err": 1,
-    "msg": "Yetkilendirmeye ihtiyacım var. Lütfen giriş yapın",
-    "note": "1-299 user interaction errors"
-  },
-  {
-    "err": 2,
-    "msg": "Jeton iol süresi doldu",
-    "descr": "Relogin"
-  },
-  {
-    "err": 3,
-    "msg": "Hesabın kilitlendi"
-  },
-  {
-    "err": 4,
-    "msg": "Bu özellik için yeterli hakınız yok. Lütfen sistemdeki rolünüzü giriş yapın veya artırın."
-  },
-  {
-    "err": 5,
-    "msg": "Geçersiz kullanıcı adı veya şifre"
-  },
-  {
-    "err": 6,
-    "msg": "Jeton iol bulunmaz veya süresi dolmaz"
-  },
-  {
-    "err": 7,
-    "msg": "TAMAM"
-  },
-  {
-    "err": 8,
-    "msg": "Bu giriş henüz etkinleştirilmedi. Aktivasyon koduna sahip bir e-posta, kayıt e-postasına gönderildi."
-  },
-  {
-    "err": 9,
-    "msg": "Kullanıcı adı başka bir kullanıcı tarafından işgal edilir. Başka bir kullanıcı adı deneyin."
-  },
-  {
-    "err": 10,
-    "msg": "Kayıtlı oldunuz ve şimdi giriş yapabilirsiniz."
-  },
-  {
-    "err": 11,
-    "msg": "Geçerli şifre yanlış"
-  },
-  {
-    "err": 13,
-    "msg": "Şifreniz belirtilen e-posta adresine gönderildi"
-  },
-  {
-    "err": 15,
-    "msg": "Teşekkür ederim. Başvurunuz kabul edildi. Kısa süre içinde personelimiz tarafından sizinle iletişime geçilecek"
-  },
-  {
-    "err": 21,
-    "msg": "Doğru captcha cevabı gereklidir."
-  },
-  {
-    "err": 23,
-    "msg": "Lütfen, bu özelliği kullanmak için profilinizi doldurun"
-  },
-  {
-    "err": 24,
-    "msg": "Tüm uygulama kullanıcı özellikleri sizin için açıktır. Tebrikler!"
-  },
-  {
-    "err": 25,
-    "msg": "Bu gruptan çıkamazsın"
-  },
-  {
-    "err": 26,
-    "msg": "Lütfen kullanıcı adını kontrol edin"
-  },
-  {
-    "err": 27,
-    "msg": "Parola başarıyla değiştirildi"
-  },
-  {
-    "err": 29,
-    "msg": "NiXeL ile başarısız giriş. Jeton alınmaz."
-  },
-  {
-    "err": 30,
-    "msg": "NiXeL'deki kullanıcıda bu kullanıcı adı ile giriş yok"
-  },
-  {
-    "err": 31,
-    "msg": "Cihaz kimliği yok"
-  },
-  {
-    "err": 32,
-    "msg": "Uygulama Örneği Kayıt Hatası"
-  },
-  {
-    "err": 33,
-    "msg": "Configuration @conf alınmadı"
-  },
-  {
-    "err": 34,
-    "msg": "Kullanıcı bulunamadı"
-  },
-  {
-    "err": 35,
-    "msg": "Sohbet özelliğine erişim seviyesi"
-  },
-  {
-    "err": 36,
-    "msg": "Bu sohbet sizin için kilitli. Sebep kaldığı gibi: \"{{lock_descr}}\""
-  },
-  {
-    "err": 37,
-    "msg": "Bu odadaki operasyon için yeterli hak yok"
-  },
-  {
-    "err": 38,
-    "msg": "Etkileşim için uygulama bulamadım"
-  },
-  {
-    "err": 39,
-    "msg": "İptal"
-  },
-  {
-    "err": 40,
-    "msg": "Bir alan değeri min veya maksimum durumu tatmin etmez"
-  },
-  {"err": 41, "msg": "Uygulama için konum ayarına izin verilmiyor. Cihazınızda Konum/GPS KAPALI olabilir veya NiXeL'e konum verilerini kullanma izni vermemiş olabilirsiniz"},
-  {
-    "err": 42,
-    "msg": "Görüntü işleme başarısız oldu"
-  },
-  {
-    "err": 43,
-    "msg": "Görüntü yükleme başarısız oldu"
-  },
-  {
-    "err": 44,
-    "msg": "Sipariş Yayın Hatası"
-  },
-  {
-    "err": 45,
-    "msg": "Sipariş tokeni bulunamadı"
-  },
-  {
-    "err": 46,
-    "msg": "Setorderloc'u arayın Gözlemden önce"
-  },
-  {
-    "err": 47,
-    "msg": "Sipariş zaten kapalı veya alındı"
-  },
-  {
-    "err": 48,
-    "msg": "Ülke için asgari ücret belirlenmedi"
-  },
-  {
-    "err": 49,
-    "msg": "Sözleşme token bulunamadı"
-  },
-  {
-    "err": 50,
-    "msg": "Bir şeyler yanlış gitti. Endişelenme :) sadece devam et"
-  },
-  {
-    "err": 51,
-    "msg": "Akıllı sözleşme belirteci bulunamadı"
-  },
-  {
-    "err": 52,
-    "msg": "Mevcut sözleşme Stete, yeni devlette değişime izin vermiyor"
-  },
-  {
-    "err": 53,
-    "msg": "Fatura jetonu bulunamadı"
-  },
-  {
-    "err": 54,
-    "msg": "Mevcut fatura durumu, gerekli durumun değişmesine izin vermiyor"
-  },
-  {
-    "err": 55,
-    "msg": "Komut zaten daha önce yapıldı"
-  },
-  {
-    "err": 56,
-    "msg": "Posta kutusu bulunamadı"
-  },
-  {
-    "err": 57,
-    "msg": "Profil bulunamadı"
-  },
-  {
-    "err": 58,
-    "msg": "Her iki tarafın resmine sahip isim, aile adı, doğum tarihi ve en az bir kimlik belgesi (kimlik kartı, sürücü belgesi veya pasaport gibi) gereklidir"
-  },
-  {
-    "err": 59,
-    "msg": "NiXeL hesabında yeterli para birimi yok"
-  },
-  {
-    "err": 60,
-    "msg": "NiXeL hesabında yeterince iou"
-  },
-  {
-    "err": 61,
-    "msg": "NiXeL Hesabında Yeterli Sinhro yok"
-  },
-  {
-    "err": 62,
-    "msg": "Zaten yapıldı"
-  },
-  {
-    "err": 63,
-    "msg": "Belge bulunamadı"
-  },
-  {
-    "err": 64,
-    "msg": "Kartta yetersiz fon"
-  },
-  {
-    "err": 65,
-    "msg": "Kartın süresi doldu"
-  },
-  {
-    "err": 66,
-    "msg": "Kart yok"
-  },
-  {
-    "err": 67,
-    "msg": "P/PS'de yeterince SINHRO yok"
-  },
-  {
-    "err": 68,
-    "msg": "GooglePlay/Appstore'da ne yüklü ne de bulundu"
-  },
-  {
-    "err": 69,
-    "msg": "Bir Kullanıcı Seçin"
-  },
-  {
-    "err": 70,
-    "msg": "Bu özellik için hesabınızı etkinleştirmelisiniz. Profilinizde yapabilirsiniz"
-  },
-  {
-    "err": 71,
-    "msg": "Bu özellik için hesabınızın doğrulamasını geçmelisiniz. Profilinizde yapabilirsiniz"
-  },
-  {
-    "err": 72,
-    "msg": "Profilinizde bir takma ad ayarlamalısınız"
-  },
-  {
-    "err": 73,
-    "msg": "Oda bulunamadı"
-  },
-  {
-    "err": 74,
-    "msg": "Yeni veri yok"
-  },
-  {
-    "err": 75,
-    "msg": "Kullanıcı faturalara/manuel faturalara izin vermedi"
-  },
-  {
-    "err": 76,
-    "msg": "Özelliğe erişiminiz yok"
-  },
-  {
-    "err": 77,
-    "msg": "Bu para birimi şimdiye kadar FSP'de uygulanamaz. Lütfen başka bir para birimi seçin"
-  },
-  {"err": 78, "msg": "Kendi promosyon kodu kullanılarak yeni promosyon kodu kaydedilemez"},
-  {"err": 79, "msg": "Promo code not found"},
-  {"err": 80, "msg": "Check state of the document"},
-  {"err": 81, "msg": "Belgenin süresi doldu"},
-  {"err": 82, "msg": "Şifre sıfırlama soruları ayarlanmadı"},
-  {"err": 83, "msg": "Profilinize adınızı ve soyadınızı eklemelisiniz."},
-  {"err": 84, "msg": "Bu cihaz WebGL2'yi desteklemiyor."},
-  {
-    "err": 300,
-    "msg": "Ağ sorunları. İnternet bağlantısını kontrol edin",
-    "note": "300-399 connection errors"
-  },
-  {
-    "err": 301,
-    "msg": "LAC: Yanıt yok"
-  },
-  {
-    "err": 302,
-    "msg": "Yanıt zaman aşımı. Lütfen birkaç dakika sonra tekrar deneyin"
-  },
-  {
-    "err": 303,
-    "msg": "E -posta Sorunları"
-  },
-  {"err": 304, "msg": "Üçüncü taraf bir hizmete yetkilendirme başarısız oldu"},
-  {
-    "err": 400,
-    "msg": "DB Hatası: Verileri kontrol edin",
-    "note": "400-599 database errors"
-  },
-  {
-    "err": 401,
-    "msg": "DB Bağlantı Hatası"
-  },
-  {
-    "err": 402,
-    "msg": "Yerel DB bağlantı hatası"
-  },
-  {
-    "err": 403,
-    "msg": "DB prosedürü"
-  },
-  {
-    "err": 404,
-    "msg": "Veriler kaydedilmedi"
-  },
-  {
-    "err": 405,
-    "msg": "Komut başarısız oldu"
-  },
-  {
-    "err": 406,
-    "msg": "Verilen ValueBase yanlış"
-  },
-  {"err": 407, "msg": "Medya depolama alanına erişim"},
-  {
-    "err": 500,
-    "msg": "iol-Connector: 'At' elde edilmez",
-    "note": "500-599: iol-connector errors"
-  },
-  {
-    "err": 501,
-    "msg": "Konu Aboneliği Başarısız"
-  },
-  {
-    "err": 502,
-    "msg": "Başarısızlık Gönderme"
-  },
-  {"err": 503, "msg": "{{appName}} iol app is required in the device for this feature but it is not installed. Please, install it and try again"},
-  {
-    "err": 516,
-    "msg": "Konu mevcut değil"
-  },
-  {
-    "err": 517,
-    "msg": "Horse durdu"
-  },
-  {
-    "err": 518,
-    "msg": "iol bağlantısı kesildi. Yeniden bağlanılıyor..."
-  },
-  {
-    "err": 519,
-    "msg": "Oturum kayboldu"
-  },
-  {
-    "err": 520,
-    "msg": "Oturum bir sorun döndürdü"
-  },
-  {"err": 521, "msg": "iolService has not been launched on this device or it doesn't response"},
-  {
-    "err": 600,
-    "msg": "şifreleme/şifresini yanlış",
-    "note": "600-799 code errors"
-  },
-  {
-    "err": 601,
-    "msg": "Yöntem adı bulunamadı"
-  },
-  {
-    "err": 602,
-    "msg": "Captcha üretim hatası"
-  },
-  {
-    "err": 603,
-    "msg": "Alınan veriler doğru iol-Protocol'de değil"
-  },
-  {
-    "err": 604,
-    "msg": "Yeterince geçerli parametre yok"
-  },
-  {
-    "err": 605,
-    "msg": "Geçersiz veri değerleri"
-  },
-  {
-    "err": 606,
-    "msg": "Dosya Yükleme Hatası. Boyutu veya formatı kontrol edin."
-  },
-  {
-    "err": 607,
-    "msg": "Tanımsız komut"
-  },
-  {
-    "err": 608,
-    "msg": "Üzengi bu komutu tanıyamadı"
-  },
-  {
-    "err": 609,
-    "msg": "Inreqpool'da orijinal istek oku bulamıyorum"
-  },
-  {
-    "err": 610,
-    "msg": "ACTNAME/SPNAME Tapınakta bulunamadı"
-  },
-  {
-    "err": 611,
-    "msg": "JSON Ayrıştırma Hatası"
-  },
-  {
-    "err": 612,
-    "msg": "Kod hatası"
-  },
-  {
-    "err": 613,
-    "msg": "iol-Connect lib intited değil"
-  },
-  {
-    "err": 614,
-    "msg": "Yeni Konu Oluşturma Hatası"
-  },
-  {
-    "err": 615,
-    "msg": "Gönderme hatası"
-  },
-  {
-    "err": 616,
-    "msg": "HTTP (S) Talep Arızası"
-  },
-  {
-    "err": 618,
-    "msg": "Sipariş göz ardı edildi/reddedildi"
-  },
-  {
-    "err": 619,
-    "msg": "Parametre coroutine olmalı"
-  },
-  {
-    "err": 800,
-    "msg": "FSP'ler yok",
-    "note": "800-999 FSP errors"
-  },
-  {
-    "err": 801,
-    "msg": "FSP desteklenmiyor"
-  },
-  {
-    "err": 802,
-    "msg": "FSP hata ile cevap verdi"
-  },
-  {
-    "err": 803,
-    "msg": "FSP: Alıntı Başarısız Olmak"
-  },
-  {
-    "err": 804,
-    "msg": "FSP: Dönüştürme Başarısızlığı"
-  },
-  {
-    "err": 805,
-    "msg": "FSP: Aktarma Başarısızlığı"
-  }
+  {"err": -1, "msg": ""},
+  {"err": 0, "msg": "Хәта номеры iol'да теркәлмәгән яки хәталар исемлеге әле йөкләнмәгән"},
+  {"err": 1, "msg": "Авторизация кирәк. Зинһар, системага керегез", "note": "1-299 user interaction errors"},
+  {"err": 2, "msg": "iol токенының гамәлдә булу вакыты чыкты", "descr": "Relogin"},
+  {"err": 3, "msg": "Сезнең аккаунт блокка салынды"},
+  {"err": 4, "msg": "Бу функция өчен хокукларыгыз җитәрлек түгел. Зинһар, системага керегез яки системадагы ролегезне күтәрегез"},
+  {"err": 5, "msg": "Кулланучы исеме яки пароль ялгыш"},
+  {"err": 6, "msg": "iol токены табылмады яки аның гамәлдә булу вакыты чыкты"},
+  {"err": 7, "msg": "OK"},
+  {"err": 8, "msg": "Бу логин әле активлаштырылмаган. Активлаштыру коды булган электрон хат теркәлү e-mail'ына җибәрелде"},
+  {"err": 9, "msg": "Бу кулланучы исеме башка кулланучы тарафыннан алынган. Башка кулланучы исемен кулланып карагыз."},
+  {"err": 10, "msg": "Сез теркәлдегез һәм хәзер системага керә аласыз"},
+  {"err": 11, "msg": "Хәзерге пароль ялгыш"},
+  {"err": 13, "msg": "Сезнең пароль күрсәтелгән e-mail адресына җибәрелде"},
+  {"err": 15, "msg": "Рәхмәт. Сезнең гаризагыз кабул ителде. Тиздән безнең хезмәткәр сезнең белән элемтәгә керәчәк"},
+  {"err": 21, "msg": "Капчага дөрес җавап кирәк"},
+  {"err": 23, "msg": "Бу функцияне куллану өчен зинһар, профилегезне тутырыгыз"},
+  {"err": 24, "msg": "Кулланманың барлык мөмкинлекләре сезнең өчен ачык. Котлыйбыз!"},
+  {"err": 25, "msg": "Сез бу төркемдән чыга алмыйсыз"},
+  {"err": 26, "msg": "Зинһар, кулланучы исемен тикшерегез"},
+  {"err": 27, "msg": "Пароль уңышлы үзгәртелде "},
+  {"err": 29, "msg": "NiXeL аша керү уңышсыз. Токен алынмады."},
+  {"err": 30, "msg": "NiXeL'да мондый userName булган кулланучы системага кермәгән"},
+  {"err": 31, "msg": "Күрылманың ID-сы алынмады"},
+  {"err": 32, "msg": "Кулланма нөсхәсен теркәү хәтасы"},
+  {"err": 33, "msg": "@conf конфигурациясе алынмады"},
+  {"err": 34, "msg": "Кулланучы табылмады"},
+  {"err": 35, "msg": "Чат функциясенә керү дәрәҗәсе"},
+  {"err": 36, "msg": "Бу чат сезнең өчен блокка салынган. Күрсәтелгән сәбәп: \"{{lock_descr}}\""},
+  {"err": 37, "msg": "Бу бүлмәдә операция ясау өчен хокуклар җитәрлек түгел"},
+  {"err": 38, "msg": "Үзара бәйләнеш өчен кулланма табылмады"},
+  {"err": 39, "msg": "Гамәлдән чыгару"},
+  {"err": 40, "msg": "Кырның кыйммәте минимум яки максимум шартларына туры килми"},
+  {"err": 41, "msg": "Кулланмага геолокацияне көйләү рөхсәт ителмәгән. Мөмкин, сезнең курылмада Геолокация/GPS сүндерелгән яки сез NiXeL'га геолокация мәгълүматларын кулланырга рөхсәт бирмәдегез"},
+  {"err": 42, "msg": "Сүрәтне эшкәртү уңышсыз тәмамланды"},
+  {"err": 43, "msg": "Сүрәтне йөкләү уңышсыз тәмамланды"},
+  {"err": 44, "msg": "Заказны бастыру хәтасы"},
+  {"err": 45, "msg": "Заказ токены табылмады"},
+  {"err": 46, "msg": "observeMatchedOrders алдыннан setOrderLoc чакырыгыз"},
+  {"err": 47, "msg": "Заказ ябылган яки алынган инде"},
+  {"err": 48, "msg": "Ил өчен минималь эш хакы билгеләнмәгән"},
+  {"err": 49, "msg": "Контракт токены табылмады"},
+  {"err": 50, "msg": "Нидер ялгыш китте. Борчылмагыз :) Дәвам итегез"},
+  {"err": 51, "msg": "Смарт-контракт токены табылмады"},
+  {"err": 52, "msg": "Контрактның хәзерге торышы яңа торышка күчәргә мөмкинлек бирми"},
+  {"err": 53, "msg": "Счет токены табылмады"},
+  {"err": 54, "msg": "Счетның хәзерге торышы таләп ителгән торышка күчәргә мөмкинлек бирми"},
+  {"err": 55, "msg": "Команда моңа кадәр инде үтәлгән"},
+  {"err": 56, "msg": "Почта яшьчеге табылмады "},
+  {"err": 57, "msg": "Профиль табылмады"},
+  {"err": 58, "msg": "Исем, фамилия, туу датасы һәм шәхесне раслаучы кимендә бер документның (ID карта, шофёр таныклыгы яки паспорт кебек) ике ягының да фотосы кирәк"},
+  {"err": 59, "msg": "NiXeL аккаунтында валюта җитәрлек түгел"},
+  {"err": 60, "msg": "NiXeL аккаунтында IOU җитәрлек түгел"},
+  {"err": 61, "msg": "NiXeL аккаунтында SINHRO җитәрлек түгел"},
+  {"err": 62, "msg": "Бу инде эшләнгән"},
+  {"err": 63, "msg": "Документ табылмады"},
+  {"err": 64, "msg": "Картада акча җитәрлек түгел"},
+  {"err": 65, "msg": "Картаның гамәлдә булу вакыты чыкты"},
+  {"err": 66, "msg": "Карта гамәлдә түгел"},
+  {"err": 67, "msg": "P/PS'та SINHRO җитәрлек түгел"},
+  {"err": 68, "msg": "Кулланма урнаштырылмаган һәм GooglePlay/AppStore'да табылмады"},
+  {"err": 69, "msg": "Кулланучыны сайлагыз"},
+  {"err": 70, "msg": "Бу функция өчен сез аккаунтыгызны активлаштырырга тиеш. Сез моны профилегездә итә аласыз"},
+  {"err": 71, "msg": "Бу функция өчен сез аккаунтыгызның верификациясен үтәргә тиеш. Сез моны профилегездә итә аласыз"},
+  {"err": 72, "msg": "Сез профилегездә псевдоним куярга тиеш"},
+  {"err": 73, "msg": "Бүлмә табылмады"},
+  {"err": 74, "msg": "Яңа мәгълүматлар юк"},
+  {"err": 75, "msg": "Кулланучы счетларны/кулдан ясалган счетларны рөхсәт итмәде"},
+  {"err": 76, "msg": "Сезнең бу функциягә керү хокукыгыз юк"},
+  {"err": 77, "msg": "Әлегә бу валюта FSP'та кулланылмый. Зинһар, башка валюта сайлагыз"},
+  {"err": 78, "msg": "Үз промокодыгызны кулланып яңа промокодны теркәп булмый"},
+  {"err": 79, "msg": "Промокод табылмады"},
+  {"err": 80, "msg": "Документның торышын тикшерегез"},
+  {"err": 81, "msg": "Документның гамәлдә булу вакыты чыкты"},
+  {"err": 82, "msg": "Парольне торгызу сораулары куелмаган"},
+  {"err": 83, "msg": "Сез профилегездә исем һәм фамилиягезне куярга тиеш"},
+  {"err": 84, "msg": "Бу курылма WebGL2'не якламый"},
+  {"err": 300, "msg": "Челтәр проблемалары. Интернет бәйләнешен тикшерегез", "note": "300-399 connection errors"},
+  {"err": 301, "msg": "LAC: җавап юк"},
+  {"err": 302, "msg": "Җавап көтү вакыты узды. Зинһар, берничә минуттан соң яңадан кабатлагыз"},
+  {"err": 303, "msg": "Email белән проблемалар"},
+  {"err": 304, "msg": "Өченче як хезмәтенә авторизация уңышсыз"},
+  {"err": 400, "msg": "МБ хәтасы: мәгълүматларны тикшерегез", "note": "400-599 database errors"},
+  {"err": 401, "msg": "МБ бәйләнеш хәтасы"},
+  {"err": 402, "msg": "Җирле МБ бәйләнеш хәтасы"},
+  {"err": 403, "msg": "МБ процедурасы искәрмәсе"},
+  {"err": 404, "msg": "Мәгълүматлар сакланмады"},
+  {"err": 405, "msg": "Команда уңышсыз тәмамланды"},
+  {"err": 406, "msg": "Билгеләнгән valueBase ялгыш "},
+  {"err": 407, "msg": "Медиа саклагычка керү"},
+  {"err": 500, "msg": "iol-connector: 'Horse' алынмады", "note": "500-599: iol-connector errors"},
+  {"err": 501, "msg": "Темага язылу уңышсыз"},
+  {"err": 502, "msg": "Җибәрү уңышсыз"},
+  {"err": 503, "msg": "Бу функция өчен курылмада {{appName}} iol кулланмасы кирәк, ләкин ул урнаштырылмаган. Зинһар, аны урнаштырыгыз һәм яңадан кабатлагыз"},
+  {"err": 516, "msg": "Тема гамәлдә түгел"},
+  {"err": 517, "msg": "Horse туктатылган"},
+  {"err": 518, "msg": "iol белән бәйләнеш югалды. Яңадан тоташу..."},
+  {"err": 519, "msg": "Сессия югалды"},
+  {"err": 520, "msg": "Сессия хәта кайтарды"},
+  {"err": 521, "msg": "iolService бу курылмада җибәрелмәгән яки җавап бирми"},
+  {"err": 600, "msg": "Шифрлау/Шифрны ачу хәтасы", "note": "600-799 code errors"},
+  {"err": 601, "msg": "Метод исеме табылмады"},
+  {"err": 602, "msg": "Капча генерациясе хәтасы"},
+  {"err": 603, "msg": "Алынган мәгълүматлар дөрес iol-protocol форматында түгел"},
+  {"err": 604, "msg": "Гамәлдәге параметрлар җитәрлек түгел"},
+  {"err": 605, "msg": "Мәгълүматларның ялгыш кыйммәтләре"},
+  {"err": 606, "msg": "Файл йөкләү хәтасы. Күләмен яки форматын тикшерегез."},
+  {"err": 607, "msg": "ways'та билгесез команда"},
+  {"err": 608, "msg": "Stirrup бу команданы таный алмады"},
+  {"err": 609, "msg": "inReqPool'да башлангыч сорау угын табу мөмкин түгел"},
+  {"err": 610, "msg": "temple'да actName/spName табылмады"},
+  {"err": 611, "msg": "JSON парсинг хәтасы"},
+  {"err": 612, "msg": "Код хәтасы"},
+  {"err": 613, "msg": "iol-connect китапханәсе инициализацияләнмәгән"},
+  {"err": 614, "msg": "Яңа тема булдыру хәтасы"},
+  {"err": 615, "msg": "Публикация ясау уңышсыз"},
+  {"err": 616, "msg": "http(s) соравы уңышсыз"},
+  {"err": 618, "msg": "Заказ игътибарсыз калдырылды/кире кагылды"},
+  {"err": 619, "msg": "Параметр coroutine булырга тиеш"},
+  {"err": 800, "msg": "Мөмкин булган FSP'лар юк", "note": "800-999 FSP errors"},
+  {"err": 801, "msg": "Бу FSP якланмый"},
+  {"err": 802, "msg": "FSP хәта белән җавап бирде"},
+  {"err": 803, "msg": "FSP: котировканы алу уңышсыз"},
+  {"err": 804, "msg": "FSP: конвертация ясау уңышсыз"},
+  {"err": 805, "msg": "FSP: күчерү уңышсыз"}
 ]
