@@ -1,4 +1,4 @@
-
+// edition 30.08.26
 let urlParams;
 
 let tryAfter = 5;
@@ -104,7 +104,8 @@ async function run() {
         let suppLngs = [];
 
         try{
-            suppLngs = JSON.parse(getUrlParameter('l')) || []
+            // url address has paremeter like? l=["en","ru","zh"]
+            suppLngs = getUrlParameter('l').split(",") || []
         }catch (e) {}
 
 
