@@ -19,6 +19,10 @@
           "text": "Agree"
         },
         {
+          "ifi": 2,
+          "text": "We don't collect your payment and card details. You will be redirected to the payment platform Stripe.com"
+        },
+        {
           "ifi": 400,
           "text": "Error",
           "note": "from 400 error msgs"
