@@ -7,7 +7,7 @@
     },
     "en": {
       "descr": "One-time module use payment.",
-      "offerUrl": "https://raw.githubusercontent.com/Internet-of-labour/node-distr/blob/main/shares/royalty/default.htm",
+      "offerUrl": "https://raw.githubusercontent.com/Internet-of-labour/node-distr/main/shares/royalty/default.htm",
       "ifis": [
         {
           "ifi": 0,
