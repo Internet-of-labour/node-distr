@@ -1,0 +1,28 @@
+{
+  "default": {
+    "defPayParams": {
+      "iProp": "Flexible Manual Payment Module",
+      "currIso3": "USD",
+      "minSum": 10
+    },
+    "en": {
+      "descr": "One-time module use payment.",
+      "offerUrl": "https://raw.githubusercontent.com/Distributed-Digital-Nomads/ddncave-distr/main/docs/en/rules.htm",
+      "ifis": [
+        {
+          "ifi": 0,
+          "text": " "
+        },
+        {
+          "ifi": 1,
+          "text": "Agree"
+        },
+        {
+          "ifi": 400,
+          "text": "Error",
+          "note": "from 400 error msgs"
+        }
+      ]
+    }
+  }
+}
