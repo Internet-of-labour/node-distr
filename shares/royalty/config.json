@@ -1,7 +1,7 @@
 {
   "default": {
-    "sLinkPath": "3cIdRb3C8grG8XA06B04800",
     "defPayParams": {
+      "sLinkPath": "3cIdRb3C8grG8XA06B04800",
       "iProp": "Flexible Manual Payment Module",
       "currIso3": "USD",
       "minSum": 10
