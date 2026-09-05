@@ -8,7 +8,7 @@
     },
     "en": {
       "acceptTxt": "Agree",
-      "descr": "One-time module use payment.",
+      "descr": "Roylty iol payment for one-time use of the module",
       "offerUrl": "https://raw.githubusercontent.com/Internet-of-labour/node-distr/main/shares/royalty/docs/default/en/poffer.htm",
       "ifis": [
         {
