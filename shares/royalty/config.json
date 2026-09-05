@@ -1,14 +1,14 @@
 {
   "default": {
     "defPayParams": {
-      "sLinkPath": "3cIdRb3C8grG8XA06B04800",
+      "sLinkPath": "bJecN72y41wMehU06B04802",
       "iProp": "Flexible Manual Payment Module",
-      "currIso3": "USD",
-      "minSum": 10
+      "currIso3": "AUD",
+      "minSum": 15
     },
     "en": {
       "acceptTxt": "Agree",
-      "descr": "Roylty iol payment for one-time use of the module",
+      "descr": "Royalty iol payment for one-time use of the module",
       "offerUrl": "https://raw.githubusercontent.com/Internet-of-labour/node-distr/main/shares/royalty/docs/default/en/poffer.htm",
       "ifis": [
         {
