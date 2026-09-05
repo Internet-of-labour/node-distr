@@ -7,8 +7,9 @@
       "minSum": 10
     },
     "en": {
+      "acceptTxt": "Agree",
       "descr": "One-time module use payment.",
-      "offerUrl": "https://raw.githubusercontent.com/Internet-of-labour/node-distr/main/shares/royalty/default.htm",
+      "offerUrl": "https://raw.githubusercontent.com/Internet-of-labour/node-distr/main/shares/royalty/docs/default/en/poffer.htm",
       "ifis": [
         {
           "ifi": 0,
@@ -16,7 +17,8 @@
         },
         {
           "ifi": 1,
-          "text": "Agree"
+          "text": "Agree",
+          "note": "must === acceptTxt key value"
         },
         {
           "ifi": 2,
