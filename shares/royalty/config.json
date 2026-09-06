@@ -17,8 +17,7 @@
         },
         {
           "ifi": 1,
-          "text": "Agree",
-          "note": "must === acceptTxt key value"
+          "text": "Agree"
         },
         {
           "ifi": 2,
